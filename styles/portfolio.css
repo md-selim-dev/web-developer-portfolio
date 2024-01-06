@@ -14,7 +14,22 @@ body {
   font-size: 20px;
   color: white;
   font-weight: 700;
-  padding: 10px 35px;
+  padding: 15px 35px;
+}
+
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.section-description {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
 }
 
 /* Nav Related Styles */
@@ -39,20 +54,60 @@ nav li {
 }
 nav a {
   text-decoration: none;
+  font-size: 18px;
   color: #474747;
 }
 
 /* Header Related Styles */
 .header {
-    background-color: #f8f1ec;;
+  background-color: #f8f1ec;
+  background-image: url(../images/header_bg.png);
+  background: ;
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }
 
 .banner {
-    padding: 30px 30px 30px 150px;
-    display: flex;
-    align-items: center;
+  padding: 30px 30px 0px 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-greeting {
+  color: #474747;
+  font-size: 45px;
+  margin-bottom: 0px;
+}
+.banner-title {
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 15px;
+  margin-left: 0;
+}
+
+.banner-content {
+  max-width: 500px;
+}
+.banner-description {
+  margin-bottom: 25px;
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
 }
 
 .banner .profile-picture {
-    width: 500px;
+  width: 500px;
+}
+
+/* Main section styles */
+
+/* About section styles */
+.about {
+  background-color: #f8f1ec;
+  border-radius: 10px;
+  padding: 130px;
+  margin: 130px 0;
 }
