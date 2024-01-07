@@ -61,10 +61,10 @@ nav a {
 /* Header Related Styles */
 .header {
   background-color: #f8f1ec;
-  background-image: url(../images/header_bg.png);
+  background-image: url(../images/header_bg.png), url(../images/developer.png);
   background: ;
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: right bottom , top left;
 }
 
 .banner {
